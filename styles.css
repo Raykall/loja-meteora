@@ -1,0 +1,29 @@
+@import url(./src/assets/styles/header.css);
+@import url(./src/assets/styles/search.css);
+@import url(./src/assets/styles/carrosel.css);
+@import url(./src/assets/styles/category.css);
+@import url(./src/assets/styles/card.css);
+@import url(./src/assets/styles/redesociais.css);
+@import url(./src/assets/styles/newsletter.css);
+@import url(./src/assets/styles/footer.css);
+@import url(./src/assets/styles/cardModal.css);
+
+:root {
+    --cor-de-fundo: #FFFFFF;
+    --cinza-meteora: #cccccc;
+    --menu-hambuguer: #343A40;
+    --verde-meteora: #DAFF01;
+    --roxo-meteora: #9353FF;
+    --preto: #000000;
+    --coral-meteora: #EE6471;
+    --laranja-meteora: #F87F46;
+    --cor-letra: #212529;
+    --font-principal: 'Inter', sans-serif;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-size: 16px;
+    font-family: var(--font-principal);
+}
+

@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+        <head>
+          <meta charset="UTF-8" />
+          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+          <title>Loja meteora com mobile first</title>
+          <link rel="stylesheet" href="reset.css" />
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+          <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+          <link rel="stylesheet" href="styles.css" />
+        </head>
+<body>
+
+  
+
+    <header class="cabecalho">
+      <div class="container">
+        <div class="div__image-cabecalho">
+          <img src="./src/assets/img/common/Identidade-visual-Meteora-slogan 2.svg" alt="Logo Loja Meteora" class="container__image"/>
+        </div>
+
+        <div class="div__input">
+          <span type="checkbox" id="menu" class="container__button"></span>
+          <span class="menu-hambuguer"></span>
+        </div>
+        
+        <ul class="lista-menu">
+          <li class="lista-menu__titulo">Home</li>
+          <li class="lista-menu__item">
+            <a href="#" class="lista-menu__link lista__menu-first-child">Nossas lojas</a>
+          </li>
+          <li class="lista-menu__item">
+            <a href="#" class="lista-menu__link">Novidades</a>
+          </li>
+          <li class="lista-menu__item">
+            <a href="#" class="lista-menu__link lista__menu-last-child">Promoções</a>
+          </li>
+        </ul>
+
+        <div class="div__options">
+          <ul class="options">
+            <li class="option__item">
+              <a href="#" class="options__link">
+                Home
+              </a>
+            </li>
+            <li class="option__item">
+              <a href="#" class="options__link">
+                Nossas lojas
+              </a>
+            </li>
+            <li class="option__item">
+              <a href="#" class="options__link">
+                Novidades
+              </a>
+            </li>
+            <li class="option__item">
+              <a href="#" class="options__link">
+                Promoções
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="container__form">
+        <input type="text" class="input__header" placeholder="Digite o produto"/>
+        <button class="btn__header">Buscar</button>
+      </div>
+    </header>
+    <main>
+      <section class="search">
+        <div class="div__search">
+          <input  type="search" id="menu__search" class="input__search"  placeholder="Digite o produto"/>
+          <button class="button__search">Search</button>
+        </div>
+      </section>
+
+      <section class="slider">
+      <div class="slider-content">
+
+        <input type="radio" name="btn-radio" id="radio1">
+        <input type="radio" name="btn-radio" id="radio2">
+        <input type="radio" name="btn-radio" id="radio3">
+
+        <div class="slider-box primeiro">
+          <img src="./src/assets/img/mobile/Image.svg" alt="Meteora Moda de impacto positivo" class="img__mob">
+          
+          <img src="./src/assets/img/tablet/Image.svg" class="img__tablet"  alt="Meteora Moda de impacto positivo" >
+          
+          <img src="./src/assets/img/desktop/Imagem banner 1.svg" class="img__desktop"  alt="Meteora Moda de impacto positivo" >
+        </div>
+        <div class="slider-box">
+        <img src="./src/assets/img/mobile/Banner-carousel-2.png" alt="Coleção Atemporal - Estilo e qualidade para durar" class="img__mob">
+        
+        <img src="./src/assets/img/tablet/Banner carousel 2 _ 768-svg.png" class="img__tablet"  alt="Coleção Atemporal - Estilo e qualidade para durar" >
+
+        <img src="./src/assets/img/desktop/Banner carousel 2 _ 1440-svg.png" class="img__desktop"  alt="Coleção Atemporal - Estilo e qualidade para durar" >
+        </div>
+        <div class="slider-box">
+        <img src="./src/assets/img/mobile/Banner-carousel-3.png" alt="Coleção temporal - Alto impacto visual, baixo impacto ambiental" class="img__mob">
+        
+        <img src="./src/assets/img/tablet/Banner carousel 3 _ 768-svg.png" class="img__tablet"  alt="Coleção temporal - Alto impacto visual, baixo impacto ambiental" >
+
+        <img src="./src/assets/img/desktop/Banner carousel 3 _ 1440-svg.png" class="img__desktop"  alt="Coleção temporal - Alto impacto visual, baixo impacto ambiental" >
+       </div>
+
+          <div class="nav-auto">
+            <div class="auto-btn1"></div>
+            <div class="auto-btn2"></div>
+            <div class="auto-btn3"></div>
+          </div>
+
+          <div class="nav-manual">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+          </div>
+      </div>
+      </section>
+
+      <section class="category">
+        <div class="div__category">
+          <h2 class="title__category">
+            Busque por categoria:
+          </h2>
+          <ul class="itens__category">
+            <li class="category-menu-item">
+              <img src="./src/assets/img/common/camiseta verde.svg" alt="Categoria Camisetas" class="category-img-item" />
+              <span class="category__text">Camisetas</span>
+            </li>
+            <li class="category-menu-item">
+              <img src="./src/assets/img/common/bolsa.svg" alt="Categoria Bolsas" class="category-img-item" />
+              <span class="category__text">Bolsas</span>
+            </li>
+            <li class="category-menu-item">
+              <img src="./src/assets/img/common/calçados.svg" alt="Categoria Calçados" class="category-img-item" />
+              <span class="category__text">Calçados</span>
+            </li>
+            <li class="category-menu-item">
+              <img src="./src/assets/img/common/calcas-category.svg" alt="Categoria Calças" class="category-img-item" />
+              <span class="category__text">Calças</span>
+            </li>
+            <li class="category-menu-item">
+              <img src="./src/assets/img/common/casacos.svg" alt="Categoria Casacos" class="category-img-item" />
+              <span class="category__text">Casacos</span>
+            </li>
+            <li class="category-menu-item">
+              <img src="./src/assets/img/common/oculos.svg" alt="Categoria Óculos" class="category-img-item" />
+              <span class="category__text">Óculos</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section__card">
+        <div class="card">
+          <div class="card__title">
+            <h2>Produtos que estão bombando!</h2>
+          </div>
+          <ul class="card__descricao">
+            <!-- <li class="descricao">
+              <img src="./src/assets/img/common/camiseta conforto.svg" alt="Camisa conforto" class="descricao__image" />
+              <div class="descricao__text">
+                <h3 class="text__title">
+                  Camiseta Conforto
+                </h3>
+                <p class="text__p">Multicores e tamanhos. Tecido de algodão 100%, fresquinho para o verão. Modelagem unissex.</p>
+                <span class="text__span"><strong>R$ 70,00</strong></span>
+                <button class="text__button">Ver mais</button>
+              </div>
+            </li>
+            <li class="descricao">
+              <img src="./src/assets/img/common/calça alfaiataria.svg" alt="Calça Alfaiataria" class="descricao__image" />
+              <div class="descricao__text">
+                <h3 class="text__title">
+                  Calça Alfaiataria
+                </h3>
+                <p class="text__p">Modelo Wide Leg alfaiataria em linho. Uma peça pra vida toda!</p>
+                <span class="text__span">R$ 180,00</span>
+                <button class="text__button">Ver mais</button>
+              </div>
+              </li>
+              <li class="descricao">
+                <img src="./src/assets/img/common/tenis chunky.svg" alt="Calça Alfaiataria" class="descricao__image" />
+                <div class="descricao__text">
+                  <h3 class="text__title">
+                    Tênis Chunky
+                  </h3>
+                  <p class="text__p">Snicker casual com solado mais alto e modelagem robusta. Modelo unissex.</p>
+                  <span class="text__span">R$ 250,00</span>
+                  <button class="text__button">Ver mais</button>
+                </div>
+                </li>
+                <li class="descricao">
+                  <img src="./src/assets/img/common/jaqueta jeans.svg" alt="Jaqueta Jeans" class="descricao__image" />
+                  <div class="descricao__text">
+                    <h3 class="text__title">
+                      Jaqueta Jeans
+                    </h3>
+                    <p class="text__p">Modelo unissex oversized com gola de camurça. Atemporal e autêntica!</p>
+                    <span class="text__span">R$ 150,00</span>
+                    <button class="text__button">Ver mais</button>
+                  </div>
+                  </li>
+                  <li class="descricao">
+                    <img src="./src/assets/img/common/oculos redondo.svg" alt="Calça Alfaiataria" class="descricao__image" />
+                    <div class="descricao__text">
+                      <h3 class="text__title">
+                        Óculos Redondo
+                      </h3>
+                      <p class="text__p">Armação metálica em grafite com lentes arredondadas. Sem erro!</p>
+                      <span class="text__span">R$ 120,00</span>
+                      <button class="text__button">Ver mais</button>
+                    </div>
+                    </li>
+                    <li class="descricao">
+                      <img src="./src/assets/img/common/bolsa coringa.svg" alt="Bolsa Coringa" class="descricao__image" />
+                      <div class="descricao__text">
+                        <h3 class="text__title">
+                          Bolsa coringa
+                        </h3>
+                        <p class="text__p">Bolsa camel em couro sintético de alta duração. Ideal para acompanhar você por uma vida!</p>
+                        <span class="text__span">R$ 120,00</span>
+                        <button class="text__button">Ver mais</button>
+                      </div>
+                      </li> -->
+          </ul>
+
+          <div class="modal__card">
+             <div class="cabecalho__modal-card">
+              <img src="./src/assets/img/common/check-circle.svg" class="image__modal"/>
+              <h2 class="cabecalho__text-modal">Confira detalhes sobre o produto</h2>
+              <a class="a__modal-card">X</a>
+            </div>
+            <div class="body__modal">
+                <!-- <div class="img-body-modal">
+                  <img src="./src/assets/img/common/camiseta conforto.svg" alt="">
+                </div>
+                <div class="text-body-modal">
+                 <div class="div__body-modal">
+                  <h3 class="text__title-modal">Jaqueta Jeans</h3>
+                  <p class="text__p-modal">Modelo unissex oversized com gola de camurça. Atemporal e autêntica!</p>
+                  <span class="text__span-modal">R$ 150,00</span>
+                  <p class="vendido">Vendido e entregue por Riachuelo</p>
+                  </div>
+                  <div class="cores">
+                    <h3 class="cores__texto">Cores:</h3>
+                    <div class="body__cores">
+                      <input  id="cor1" type="radio">
+                      <label for="cor1">Azul Claro</label>
+                      <input id="cor2" type="radio">
+                      <label for="cor2">Offwhite</label>
+                      <input id="cor3" type="radio">
+                      <label for="cor3">Preto</label>
+                    </div>
+                  </div>
+                  <div class="tamanho">
+                    <h3 class="tamanho__texto">Tamanho:</h3>
+                    <div class="body__tamanho">
+                    <input  id="p" type="radio">
+                    <label for="p">P</label>
+                    <input id="pp" type="radio">
+                    <label for="pp">PP</label>
+                    <input id="m" type="radio">
+                    <label for="m">M</label>
+                    <input id="g" type="radio">
+                    <label for="g">GG</label>
+                    <input id="gg" type="radio">
+                    <label for="gg">GG</label>
+                    </div>
+                  </div>
+                  <button class="btn__modal-card"> Adicionar à sacola</button>
+                </div> --> 
+            </div>
+          </div>
+      </section>
+
+      <section class="redes__sociais">
+        <div class="div__rs">
+            <h2 class="title__rs">Conheça todas as nossas facilidades</h2>
+          <div class="div__descricao">
+            <div class="descricao__rs">
+              <div>
+                <img src="./src/assets/img/common/x-diamond.svg" alt="Simbolo do Pix" class="image__rs">
+              </div>
+              <div class="text_rs">
+                <h3 class="h3__rs">PAGUE PELO PIX</h3>
+                <p class="p__rs">Ganhe 5% OFF em
+                  pagamentos via PIX</p>
+              </div>
+            </div>
+            <div class="descricao__rs">
+              <div>
+                <img src="./src/assets/img/common/arrow-repeat.svg" alt="Simbolo do Pix" class="image__rs">
+              </div>
+              <div class="text_rs">
+                <h3 class="h3__rs">TROCA GRÁTIS</h3>
+                <p class="p__rs">Fique livre para trocar em até 30 dias.</p>
+              </div>
+            </div>
+            <div class="descricao__rs">
+              <div>
+                <img src="./src/assets/img/common/x-diamond.svg" alt="Simbolo do Pix" class="image__rs">
+              </div>
+              <div class="text_rs">
+                <h3 class="h3__rs">SUSTENTABILIDADE</h3>
+                <p class="p__rs">Moda responsável, que respeita o meio ambiente.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="newsletter">
+        <div class="div__nl">
+          <div class="descricao__nl">
+            <h2 class="text__nl">Quer receber nossas novidades, promoções exclusivas e 10% OFF na primeira compra? Cadastre-se!</h2>
+            <div class="form__nl">
+              <input placeholder="Digite seu nome" class="input__nl" />
+              <button class="button__nl">Enviar</button>
+            </div>
+          </div>
+        </div>
+        <div id="modal" class="modal">
+          <div class="cabecalho__modal">
+            <img src="./src/assets/img/common/check-circle.svg" class="image__modal"/>
+          <h3 class="h3__modal">E-mail cadastrado com sucesso!</h3>
+          <a class="a__modal">X</a>
+          </div>
+          <div class="content__modal">
+            <p class="p__modal">Em breve você receberá novidades exclusivas da Meteora.</p>
+          </div>
+        </div>
+        <div class="modal__visible">
+        </div>
+      </section>
+
+      <footer class="rodape">
+        <h2 class="grupo__rodape">2023 © Desenvolvido por Raykall | Projeto fictício sem fins comerciais. </h2>
+      </footer>
+    </main> 
+   
+    <script src="./JavaScript/index.js"></script>
+    <script src="./JavaScript/modalProdutos.js"></script>
+    <script src="./JavaScript/carrosel.js"></script>
+    <script src="./JavaScript/filtro.js"></script>
+    <script src="./JavaScript/modal.js"></script>
+    <script src="./JavaScript/menuHeader.js"></script>
+       
+</body>
+</html>
