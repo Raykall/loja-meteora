@@ -1,0 +1,240 @@
+.cabecalho {
+        background: var(--preto);
+        display: flex;
+        justify-content: space-between;
+        align-items: center; 
+    }
+
+.container {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container__image {
+    width: 120px;
+    height: 20px;
+    padding: .8em;
+    margin-right: 9em; 
+}
+
+.container__button {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    background-image: url("../img/common/menu-fechado.svg");
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+.menu-hambuguer {
+    width: 25px;
+    height: 25px;
+    background-image: url("../img/common/marca-cruzada-1.svg");
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 20;  
+    margin-left: 1em;
+}
+
+
+.lista-menu {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40vw;
+}
+
+.lista-menu__titulo,
+.lista-menu__item {
+    padding: 0.9em;
+    background: var(--menu-hambuguer);
+}
+
+.lista-menu__titulo{
+    color: var(--verde-meteora);
+    font-weight: 700;
+    padding-top: 3em;
+}
+
+.lista-menu__item > .lista-menu__link{
+    padding-bottom: 0.2em;
+    border-bottom: 1px solid var(--cor-de-fundo);
+}
+
+.lista__menu-first-child {
+    padding-top: 0.5em;
+    border-top: 1px solid var(--cor-de-fundo);
+}
+
+.lista-menu__item > .lista__menu-last-child {
+    border-color: var(--menu-hambuguer);
+}
+
+.lista-menu__link {
+    color: var(--cor-de-fundo);
+    text-transform:capitalize;
+    text-decoration: none;
+    font-weight: 400;
+    line-height: 23px;
+}
+
+ .options {
+    display: none;
+} 
+
+.container__form {
+    display: none;
+}
+
+
+@media screen and (min-width: 768px){
+
+    .container__button {
+        display: none;
+    }
+
+    .menu-hambuguer {
+        display: none;
+    }
+
+    .cabecalho {
+        height: 58px;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;  
+    }
+
+    .container {
+        align-items: center;
+        display: flex;
+        margin: 0;
+        width: 60%;
+    }
+
+    .container__image {
+        height: 24px;
+        width: 100px;
+        margin-right: 0;
+    }
+     .cabecalho__menu-hambuguer {
+        display: none;
+    } 
+
+    .options {
+        display: flex;
+        padding: 20px;
+    }
+
+    .option__item:not(:last-child) {
+        margin-right: 20px;
+        
+    }
+
+    .options__link {
+        text-decoration: none;
+        color: var(--cor-de-fundo);
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px; 
+        font-size: 13px;
+    }
+
+    .container__form {
+        display: flex;
+        justify-content: center;
+    }
+
+    .input__header {
+        height: 35px;
+        flex-shrink: 0;
+        width: 140px;
+        margin-right: 13px;
+        border: 1px solid #FFF;
+    }
+
+    .btn__header {
+        height: 38px;
+        background-color: transparent;
+        color: #FFF;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        gap: 6px;
+        padding: 9px 12px;
+        border: 1px solid #FFF;
+    }
+}
+
+@media screen and (min-width: 1440px){ 
+
+    .cabecalho {
+        height: 58px;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .container {
+        display: flex;
+        align-items: center;
+        width: 70%;
+        justify-content: flex-start;
+    }
+
+    .container__image {
+        height: 32px;
+        width: 133px;
+        margin-right: 30px;
+    }
+
+    .cabecalho__menu-hambuguer {
+        display: none;
+    }
+
+    .options {
+        display: flex;
+        padding: 17.5px;
+    }
+
+    .option__item:not(:last-child) {
+        margin-right: 40px;
+    }
+
+    .options__link {
+        text-decoration: none;
+        color: var(--cor-de-fundo);
+        font-style: normal;
+        font-weight: 500;
+        line-height: 23px; 
+        font-size: 16px;
+    }
+
+    .container__form {
+        display: flex;
+        justify-content: center;
+    }
+
+    .input__header {
+        height: 35px;
+        flex-shrink: 0;
+        width: 140px;
+        margin-right: 13px;
+        border: 1px solid #FFF;
+    }
+
+    .btn__header {
+        height: 38px;
+        background-color: transparent;
+        color: #FFF;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        gap: 6px;
+        padding: 9px 12px;
+        border: 1px solid #FFF;
+    }
+}
