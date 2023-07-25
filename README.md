@@ -6,5 +6,6 @@ A Loja Meteora é uma empresa (fictícia) do comércio eletrônico de roupas ate
 🚀 Challenge
 <hr/>
 
-A empresa tem por objetivo se tornar referência no mercado, atraindo mais clientes e impulsionando suas vendas, buscando alcançar um novo patamar e consolidando-se como uma empresa mais digital. Para isso, eles solicitaram nossa ajuda como desenvolvedores para criar um site de um e-commerce, que proporcione uma experiência de compra incrível para seus clientes, e que atendam aos seguintes requisitos:
-
+A empresa tem por objetivo se tornar referência no mercado, atraindo mais clientes e impulsionando suas vendas, buscando alcançar um novo patamar e consolidando-se como uma empresa mais digital. Para isso, eles solicitaram nossa ajuda como desenvolvedores para criar um site de um e-commerce, que proporcione uma experiência de compra incrível para seus clientes.
+<hr/>
+<strong> A UTILIZAÇÃO DO JSON SERVER NESSE CODIGO SE FAZ NECESSARIO</strong>
